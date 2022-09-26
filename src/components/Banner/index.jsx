@@ -7,7 +7,7 @@ const Banner = () => {
     <div className="banner_container">
       <h1>Dezembro Promocional</h1>
       <h2>Produtos selecionados com 33% de desconto</h2>
-      <a href="#">Ver consoles</a>
+      <a href="http://#">Ver consoles</a>
     </div>
   );
 };
