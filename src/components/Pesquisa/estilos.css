@@ -1,0 +1,31 @@
+.input_pesquisa {
+  margin-left: 32px;
+  width: 361px;
+  background-color: #f5f5f5;
+
+  padding-left: 16px;
+
+  font-size: 16px;
+  line-height: 16px;
+  color: #a2a2a2;
+
+  border-radius: 20px 0 0 20px;
+  border: none;
+  border-style: none;
+}
+.input_pesquisa:focus{
+  outline: none;
+}
+
+.box_lupa {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 0 20px 20px 0;
+  padding-right: 17px;
+}
+
+.icone_lupa {
+  width: 24px;
+  height: 24px;
+}

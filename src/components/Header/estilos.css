@@ -1,0 +1,10 @@
+.header_barra {
+  display: flex;
+  justify-content: space-between;
+  margin: 37.5px 152px;
+}
+
+.header_direita {
+  display: flex;
+  width: 601px;
+}
