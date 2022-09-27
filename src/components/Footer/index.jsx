@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="footer_formulario">
           <p>Fale Conosco</p>
           <form>
-            <label>Nome:</label>
+            <label>Nome</label>
             <input type="text" />
             <textarea placeholder="Escreva a sua mensagem" />
             <button>Enviar mensagem</button>

@@ -2,7 +2,6 @@
   display: flex;
   background-color: #eaf2fd;
   padding: 64px 0 64px;
-
 }
 
 .footer .footer_container {
@@ -47,5 +46,78 @@
 }
 
 .footer_formulario label {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
+  padding: 8px 12px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #a2a2a2;
+}
+
+.footer_formulario input {
+  display: flex;
+  align-items: center;
+  padding-top: 4px;
+  padding-left: 12px;
+  padding-bottom: 7px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #464646;
+
+  outline: none;
+
+  border: none;
+}
+
+.footer_formulario textarea {
+  display: flex;
+  height: 82px;
+  margin-top: 16px;
+  padding: 16px 12px 0;
+  border: none;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #464646;
+
+  border-radius: 4px;
+
+  outline: none;
+}
+
+.footer_formulario textarea::placeholder {
+  color: #a2a2a2;
+}
+
+.footer_formulario button {
+  display: flex;
+  background-color: #2a7ae4;
+
+  justify-content: center;
+  align-items: center;
+
+  padding: 16px;
+  width: 165px;
+  height: 51px;
+  margin-top: 8px;
+
+  color: #fff;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  border: none;
 }
