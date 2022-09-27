@@ -1,0 +1,36 @@
+.cabecalho_categoria {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  padding-top: 64px;
+  padding-bottom: 16px;
+}
+
+.cabecalho_categoria h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #464646;
+}
+
+.cabecalho_ver_todos {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.cabecalho_ver_todos p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #2a7ae4;
+}
+
+.cabecalho_ver_todos img {
+  margin-left: 12px;
+}
