@@ -34,32 +34,32 @@ const produtos = {
 
   consoles: [
     {
-      titulo: "Produto XYZ",
+      titulo: "Console XYZ",
       valor: "R$60,00",
       img: "./assets/produto7.png",
     },
     {
-      titulo: "Produto XYZ",
+      titulo: "Console XYZ",
       valor: "R$60,00",
       img: "./assets/produto8.png",
     },
     {
-      titulo: "Produto XYZ",
+      titulo: "Console XYZ",
       valor: "R$60,00",
       img: "./assets/produto9.png",
     },
     {
-      titulo: "Produto XYZ",
+      titulo: "Console XYZ",
       valor: "R$60,00",
       img: "./assets/produto10.png",
     },
     {
-      titulo: "Produto XYZ",
+      titulo: "Console XYZ",
       valor: "R$60,00",
       img: "./assets/produto11.png",
     },
     {
-      titulo: "Produto XYZ",
+      titulo: "Console XYZ",
       valor: "R$60,00",
       img: "./assets/produto12.png",
     },
@@ -67,32 +67,32 @@ const produtos = {
 
   diversos: [
     {
-      titulo: "Produto XYZ",
+      titulo: "Controle e console XYZ",
       valor: "R$60,00",
       img: "./assets/produto13.png",
     },
     {
-      titulo: "Produto XYZ",
+      titulo: "Controle e console XYZ",
       valor: "R$60,00",
       img: "./assets/produto14.png",
     },
     {
-      titulo: "Produto XYZ",
+      titulo: "Controle e console XYZ",
       valor: "R$60,00",
       img: "./assets/produto15.png",
     },
     {
-      titulo: "Produto XYZ",
+      titulo: "Controle e console XYZ",
       valor: "R$60,00",
       img: "./assets/produto16.png",
     },
     {
-      titulo: "Produto XYZ",
+      titulo: "Controle e console XYZ",
       valor: "R$60,00",
       img: "./assets/produto17.png",
     },
     {
-      titulo: "Produto XYZ",
+      titulo: "Controle e console XYZ",
       valor: "R$60,00",
       img: "./assets/produto18.png",
     },
