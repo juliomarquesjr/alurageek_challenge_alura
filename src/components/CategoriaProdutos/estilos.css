@@ -34,3 +34,8 @@
 .cabecalho_ver_todos img {
   margin-left: 12px;
 }
+
+.categoria_itens_container{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+}

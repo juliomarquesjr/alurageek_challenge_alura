@@ -4,7 +4,9 @@ import Header from "../../components/Header";
 import Banner from "../../components/Banner";
 import CategoriaProdutos from "../../components/CategoriaProdutos";
 
-import "./estilos.css"
+import { getProdutos } from "../../services/produtos";
+
+import "./estilos.css";
 
 const Home = () => {
   return (
@@ -12,8 +14,9 @@ const Home = () => {
       <Header />
       <Banner />
       <div className="container_central">
-        <CategoriaProdutos titulo="Star Wars" />
-        <CategoriaProdutos titulo="Consoles" />
+        <CategoriaProdutos titulo="Star Wars" produtos={getProdutos('starwars')}/>
+        <CategoriaProdutos titulo="Consoles" produtos={getProdutos('consoles')}/>
+        <CategoriaProdutos titulo="Diversos" produtos={getProdutos('diversos')}/>
       </div>
     </React.Fragment>
   );

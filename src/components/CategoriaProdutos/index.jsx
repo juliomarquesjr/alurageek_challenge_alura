@@ -5,7 +5,9 @@ import seta from "../../assets/img/seta.svg";
 
 import "./estilos.css";
 
-const CategoriaProdutos = ({ titulo }) => {
+const CategoriaProdutos = ({ titulo, produtos }) => {
+  console.log(produtos);
+
   return (
     <React.Fragment>
       <div className="cabecalho_categoria">
@@ -15,8 +17,10 @@ const CategoriaProdutos = ({ titulo }) => {
           <img src={seta} alt="Ver todos" />
         </a>
       </div>
-      <div>
-        <ProdutoItem />
+      <div className="categoria_itens_container">
+        {produtos.map((item, index) => (
+          <ProdutoItem key={index} item={item} />
+        ))}
       </div>
     </React.Fragment>
   );
