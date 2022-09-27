@@ -13,6 +13,7 @@ const Home = () => {
       <Banner />
       <div className="container_central">
         <CategoriaProdutos titulo="Star Wars" />
+        <CategoriaProdutos titulo="Consoles" />
       </div>
     </React.Fragment>
   );
