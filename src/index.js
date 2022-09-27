@@ -1,13 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
 
-import "./reset.css"
-import "./index.css"
+import Routers from "./routers/Routers";
+
+import "./reset.css";
+import "./index.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <Routers />
   </React.StrictMode>
 );
