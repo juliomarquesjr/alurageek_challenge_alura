@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <React.Fragment>
       <Header />
-      <Banner />
+      {/* <Banner />
       <div className="container_central">
         <CategoriaProdutos
           titulo="Star Wars"
@@ -28,7 +28,7 @@ const Home = () => {
           produtos={getProdutos("diversos")}
         />
       </div>
-      <Footer />
+      <Footer /> */}
     </React.Fragment>
   );
 };

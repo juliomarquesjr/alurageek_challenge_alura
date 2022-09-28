@@ -1,12 +1,17 @@
 .input_pesquisa {
   margin-left: 32px;
-  width: 361px;
+  width: 331px;
+  height: 40px;
   background-color: #f5f5f5;
 
   padding-left: 16px;
 
-  font-size: 16px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
   line-height: 16px;
+
   color: #464646;
 
   border-radius: 20px 0 0 20px;
@@ -25,9 +30,22 @@
   background-color: #f5f5f5;
   border-radius: 0 20px 20px 0;
   padding-right: 17px;
+  height: 42px;
 }
 
 .icone_lupa {
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
+}
+
+@media (max-width: 800px) {
+  .input_pesquisa {
+    width: 250px;
+  }
+}
+
+@media (max-width: 580px) {
+ .input_pesquisa, .box_lupa, .icone_lupa {
+  display: none;
+ }
 }
