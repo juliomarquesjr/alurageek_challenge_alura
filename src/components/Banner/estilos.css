@@ -9,12 +9,13 @@
     url("../../assets/img/banner-image.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 352px;
 }
 
 .banner_container h1 {
   margin-left: 152px;
-  padding-top: 150px;
+  margin-top: 150px;
 
   font-family: "Raleway";
   font-style: normal;
@@ -26,7 +27,7 @@
 
 .banner_container h2 {
   margin-left: 152px;
-  padding-top: 16px;
+  margin-top: 16px;
 
   font-family: "Raleway";
   font-style: normal;
@@ -56,4 +57,54 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
+}
+
+@media (max-width: 800px) {
+  .banner_container {
+    background-size: cover;
+  }
+
+  .banner_container h1 {
+    margin-left: 32px;
+  }
+
+  .banner_container h2 {
+    margin-left: 32px;
+  }
+
+  .banner_container a {
+    margin-left: 32px;
+  }
+}
+
+@media (max-width: 580px) {
+  .banner_container {
+    height: 220px;
+  }
+
+  .banner_container h1 {
+    margin-left: 16px;
+    margin-top: 78px;
+
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 700;
+  }
+
+  .banner_container h2 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 16px;
+    margin-top: 8px;
+  }
+
+  .banner_container a {
+    margin-left: 16px;
+
+    width: 119px;
+    height: 40px;
+
+    padding: 12px 16px;
+  }
 }

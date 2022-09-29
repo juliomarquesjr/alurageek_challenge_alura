@@ -13,8 +13,8 @@ const Home = () => {
   return (
     <React.Fragment>
       <Header />
-      {/* <Banner />
-      <div className="container_central">
+      <Banner />
+      {/* <div className="container_central">
         <CategoriaProdutos
           titulo="Star Wars"
           produtos={getProdutos("starwars")}
